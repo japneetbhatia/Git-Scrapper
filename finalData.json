@@ -1,0 +1,95 @@
+[
+    {
+        "topicUrl": "https://github.com/topics/ember",
+        "projects": [
+            {
+                "projectUrl": "https://github.com/storybookjs/storybook",
+                "issues": [
+                    {
+                        "heading": "Angular 12 fails with webpack exception",
+                        "url": "https://github.com/storybookjs/storybook/issues/15603"
+                    },
+                    {
+                        "heading": "Accessibility: 'Clear text' button in search field is defined as image",
+                        "url": "https://github.com/storybookjs/storybook/issues/15601"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/TryGhost/Ghost",
+                "issues": [
+                    {
+                        "heading": "Unable to deactivate maintenance mode on Google cloud run",
+                        "url": "https://github.com/TryGhost/Ghost/issues/13141"
+                    },
+                    {
+                        "heading": "Attempt to create or modify table without primary key: ghost_production.benefits",
+                        "url": "https://github.com/TryGhost/Ghost/issues/13138"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "topicUrl": "https://github.com/topics/atom",
+        "projects": [
+            {
+                "projectUrl": "https://github.com/atom/atom",
+                "issues": [
+                    {
+                        "heading": "Uncaught Error: ENOENT: no such file or directory, stat '$ATOM_HOME/packages/atom-beautify/README...",
+                        "url": "https://github.com/atom/atom/issues/22727"
+                    },
+                    {
+                        "heading": "Atom Crashed",
+                        "url": "https://github.com/atom/atom/issues/22725"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/dracula/dracula-theme",
+                "issues": [
+                    {
+                        "heading": "Cmus theme",
+                        "url": "https://github.com/dracula/dracula-theme/issues/595"
+                    },
+                    {
+                        "heading": "New Theme - Caprine Messenger",
+                        "url": "https://github.com/dracula/dracula-theme/issues/593"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "topicUrl": "https://github.com/topics/eslint",
+        "projects": [
+            {
+                "projectUrl": "https://github.com/airbnb/javascript",
+                "issues": [
+                    {
+                        "heading": "Only quote properties that are invalid identifiers",
+                        "url": "https://github.com/airbnb/javascript/issues/2450"
+                    },
+                    {
+                        "heading": "why javascript have to be like c ?",
+                        "url": "https://github.com/airbnb/javascript/issues/2439"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/goldbergyoni/nodebestpractices",
+                "issues": [
+                    {
+                        "heading": "[Suggestion] extend 3.6 with upper snake case convention for global constants",
+                        "url": "https://github.com/goldbergyoni/nodebestpractices/issues/1043"
+                    },
+                    {
+                        "heading": "Erro de digitação",
+                        "url": "https://github.com/goldbergyoni/nodebestpractices/issues/1035"
+                    }
+                ]
+            }
+        ]
+    }
+]
