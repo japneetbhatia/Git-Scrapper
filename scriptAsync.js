@@ -13,8 +13,8 @@ async function getIssues(url,i,j) {
     await browser.get(url + "/issues");
         let issueBoxes = await browser.findElements(wd.By.css(".Link--primary.v-align-middle.no-underline.h4.js-navigation-open"));
         finalData[i].projects[j]["issues"] = [];
-        let currUrl = await browser.getCurrentUrl();    //=> if issue present (chec sjango url)
-        if (currUrl == (finalData[i].projects[j].projectUrl + "/issues")) {      //=> if issue present (chec sjango url)
+        let currUrl = await browser.getCurrentUrl();    
+        if (currUrl == (finalData[i].projects[j].projectUrl + "/issues")) {      
             for (let k = 0; k < issueBoxes.length; k++) {
                 if (k == 2) {   // -> to get only 2 issues   
                     break;
@@ -26,7 +26,7 @@ async function getIssues(url,i,j) {
         }
         projectsAdded += 1;
         if(projectsAdded == totalProjects)
-            fs.writeFileSync("finalData.json", JSON.stringify(finalData)); //-> terminal pe 2nd level tk hi dekhta h uske baad se object form dekhata h toh islie json file
+            fs.writeFileSync("finalData.json", JSON.stringify(finalData)); 
     browser.close();
 }
 
@@ -65,4 +65,3 @@ async function main() {
 }
 
 main();
-
