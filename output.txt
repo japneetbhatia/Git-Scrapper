@@ -1,0 +1,5 @@
+[
+  { topicUrl: 'https://github.com/topics/graphql' },
+  { topicUrl: 'https://github.com/topics/bitcoin' },
+  { topicUrl: 'https://github.com/topics/babel' }
+]
